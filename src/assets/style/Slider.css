@@ -1,0 +1,27 @@
+.row{
+    position: relative;
+}
+.cover img{
+    width: 100%;
+    background-size: cover;
+    background-position: center, center;
+    background-attachment: fixed;
+    position:absolute;
+    height: 40%;
+}
+.under{
+    background-color: black;
+    color: #fff;
+    width: 30%;
+    margin: 10px auto;
+    padding: 3px 8px;
+    border-radius: 25px;
+    font-size: 12px
+}
+.slider-section {
+    overflow: hidden; 
+  }
+ .left-sec, .right-sec {
+    overflow: hidden; 
+  }
+  

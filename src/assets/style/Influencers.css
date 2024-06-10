@@ -1,0 +1,42 @@
+.Influencers-Section {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: flex-end; /* Align children at the bottom */
+    justify-content: center;
+    overflow: hidden; /* Prevent overflow */
+}
+
+.layout {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 500px; /* Fixed height for the background image */
+    z-index: -1; /* Place it behind other content */
+    overflow: hidden;
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the section without stretching */
+    display: block;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    z-index: 1; /* Place content above the background image */
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Distribute columns evenly */
+    align-items: flex-end; /* Align columns at the bottom */
+}
+
+.left-sec, .right-sec {
+    width: 48%; /* Adjust width as needed */
+    box-sizing: border-box;
+}

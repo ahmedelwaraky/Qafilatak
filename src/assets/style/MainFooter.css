@@ -1,0 +1,12 @@
+.Main-Footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 5;
+    /* background: linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(200,220,226,1) 100%); */
+    background: linear-gradient(90deg,#f3f3f3 30%, #CBDDE3 100%);
+
+}
+.navbar-expand-lg{
+    background-color: rgb(238, 233, 233);
+}
