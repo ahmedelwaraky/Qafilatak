@@ -12,9 +12,9 @@ export default function Qafilatak() {
     <section className='Qafilatak'>
       {/* <MainNav></MainNav> */}
       {/* <Home></Home> */}
-      <Influencers></Influencers>
-      {/* <ContactUs></ContactUs>
-      <MainFooter></MainFooter> */}
+      {/* <Influencers></Influencers> */}
+      {/* <ContactUs></ContactUs>*/}
+      {/* <MainFooter></MainFooter>  */}
     </section>
     </>
   )

@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../assets/style/Influencers.css';
-import Influencer from '../../assets/image/iphone-14-pro.png';
 import MainButton from './MainButton';
 import HHH from '../../assets/image/Rectangle 8403.png';
+import Influencer from '../../assets/image/iphone-14-pro.png';
 import MainFooter from '../Main-Page-Component/MainFooter';
 
 export default function Influencers() {

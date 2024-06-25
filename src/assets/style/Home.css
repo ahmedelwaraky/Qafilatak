@@ -1,12 +1,11 @@
 .Home-section{
-    padding: 80px 0;
+    padding:20px 0;
     height: 100vh;
-    background: linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(200,220,226,1) 100%);
+    background: linear-gradient(90deg, rgb(221, 221, 221) 30%, rgba(200,220,226,1) 100%);
 }
-.Home-section h1{
+/* .Home-section h1{
     font-size: 50px;
     font-weight: 600;
-    /* height: 24px; */
 }
 .one{
     width: 155px;
@@ -32,4 +31,4 @@
 .five{
     position: absolute;
     top: 180px;
-}
+} */
